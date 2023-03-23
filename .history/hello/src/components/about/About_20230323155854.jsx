@@ -19,19 +19,7 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article classNane="about_card">
-              <FiAward className='about_icon'/>
-              <h5>Experience</h5>
-              <small>1 Year Working</small>
-            </article>
-
-            <article classNane="about_card">
-              <FiAward className='about_icon'/>
-              <h5>Clients</h5>
-              <small>200+ clients worldwide</small>
-            </article>
-
-            <article classNane="about_card">
-              <FiAward className='about_icon'/>
+              <FiAward
               <h5>Experience</h5>
               <small>1 Year Working</small>
             </article>

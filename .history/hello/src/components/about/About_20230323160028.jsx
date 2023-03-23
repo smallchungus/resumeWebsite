@@ -27,7 +27,7 @@ const About = () => {
             <article classNane="about_card">
               <FiAward className='about_icon'/>
               <h5>Clients</h5>
-              <small>200+ clients worldwide</small>
+              <small>1 Year Working</small>
             </article>
 
             <article classNane="about_card">
