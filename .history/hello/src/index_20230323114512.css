@@ -94,10 +94,7 @@ a:hover{
     border-color: transparent;
 }
 
-.btn-primary{
-    background: var(--color-primary);
-    color: var(--color-bg);
-}
+.btn
 
 img{
     display:block;
@@ -105,25 +102,6 @@ img{
     object-fit: cover;
 }
 
-
-/*==================Media Queries (Medium Devices ) ============= */
-@media screen and (max-width: 1024px) {
-    .container{
-        width: var(--container-width-md);
-    }
-
-    section{
-        margin-top: 6rem;
-    }
-}
-
-/*==================Media Queries (Small Devices ) ============= */
-@media screen and (max-width: 600px) {
-    .container{
-        width: var(--container-width-md);
-    }
-
-    section{
-        margin-top: 2rem;
-    }
+section > h2{
+    margin-top: 6rem;
 }

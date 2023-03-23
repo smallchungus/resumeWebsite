@@ -117,13 +117,13 @@ img{
     }
 }
 
-/*==================Media Queries (Small Devices ) ============= */
-@media screen and (max-width: 600px) {
+/*==================Media Queries (Medium Devices ) ============= */
+@media screen and (max-width: 1024px) {
     .container{
         width: var(--container-width-md);
     }
 
     section{
-        margin-top: 2rem;
+        margin-top: 6rem;
     }
 }
