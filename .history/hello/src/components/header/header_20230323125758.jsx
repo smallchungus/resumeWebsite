@@ -8,7 +8,6 @@ const Header = () => {
         <h5>Hello I'm</h5>
         <h1>William Chen</h1>
         <h5 className='text-light'>Fullstack Developer</h5>
-        <CTA />
       </div>
     </header>
   )
