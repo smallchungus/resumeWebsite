@@ -32,7 +32,7 @@
 
 .about_cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, lfr);
     gap: 1.5rem; 
 }
 
@@ -101,6 +101,7 @@
         text-align: center; 
     }
     .about_content p {
-        margin: 1.5rem 0; 
+        
     }
+
 }

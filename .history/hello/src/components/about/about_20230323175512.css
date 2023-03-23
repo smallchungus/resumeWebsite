@@ -32,7 +32,7 @@
 
 .about_cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, lfr);
     gap: 1.5rem; 
 }
 
@@ -58,49 +58,5 @@
 }
 
 .about_card h5 {
-    font-size: 0.95rem;
-}
-
-.about_card small {
-    font-size: 0.7 rem; 
-    color: var(--color-light);
-}
-
-.about_content p {
-    margin: 2rem 0 2.6 rem; 
-    color: var(--color-light); 
-}
-
-@media screen and (max-width: 1024px) {
-    .about_container {
-        grid-template-columns: 1fr; 
-        gap: 0; 
-    }
-
-    .about_me {
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
-
-    .about_content p{
-        margin: 1rem 0 1.5rem; 
-    }
-}
-
-@media screen and (max-width: 600px )
-{
-    .about_me{
-        width: 65%; 
-        margin: 0 auto 3rem; 
-    }
-    .about_cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem; 
-    }
-    .about_content {
-        text-align: center; 
-    }
-    .about_content p {
-        margin: 1.5rem 0; 
-    }
+    font-size: 0.95
 }

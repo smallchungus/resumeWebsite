@@ -11,9 +11,10 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience_content">
             <article className='experience_details'>
-
+              
             </article>
           </div>
+
         </div>
         <div className="experience_backend">
 
