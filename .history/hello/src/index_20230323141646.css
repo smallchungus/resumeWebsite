@@ -35,7 +35,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
-    line-height: 1.7;
+    line-height: 
     background-image: url(../src/assets/bg-texture.png) 
 }
 
@@ -105,8 +105,8 @@ a:hover{
 }
 
 img{
-    display: block;
-    width: 100%;
+    display:block;
+    width:100%;
     object-fit: cover;
 }
 

@@ -9,7 +9,6 @@ header {
     height: 100%; 
     position: relative; 
 }
-
 /*========================= CTA ======================= */
 .cta {
     margin-top: 2.5rem;
@@ -45,7 +44,7 @@ header {
     width: 22rem;
     height: 30rem;
     position: absolute; 
-    left: calc(50% - 11rem); 
+    left: calc (50% - 11rem); 
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0; 
     overflow: hidden;
@@ -55,7 +54,7 @@ header {
 
 .scroll_down {
     position: absolute;
-    right: -2.3rem; 
+    right: -2.3 rem; 
     bottom: 5rem;
     transform: rotate(90deg); 
     font-weight: 300;
@@ -69,12 +68,3 @@ header {
 }
 
 @media screen and (max-width: 600px)
-{
-    header {
-        height: 100vh;
-    }
-
-    .header_socials, .scroll_down{
-        display: none; 
-    }
-}
