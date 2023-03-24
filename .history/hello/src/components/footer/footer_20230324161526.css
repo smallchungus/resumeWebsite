@@ -57,9 +57,6 @@ footer a {
     .permalinks{
         flex-direction: column;
         gap: 1.5rem;
-    }
-
-    .footer_socials{
-        margin-bottom: 2.6rem;
+        
     }
 }
