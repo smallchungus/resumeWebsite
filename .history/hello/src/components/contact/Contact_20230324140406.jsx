@@ -10,17 +10,19 @@ const Contact = () =>
 {
   const form = useRef();
 
-  const sendEmail = (e) => {
-  e.preventDefault();
+  const sendEmail = (e) => 
+  {
+    e.preventDefault();
 
   emailjs.sendForm('service_ygormyc', 'template_jckmqdi', form.current, 'NgJDTMBuRfI8X34An')
+
+  
+
   .then((result) => {
-    e.target.reset();
-    console.log(result.text);
-}, (error) => {
-    console.log(error.text);
-});
- 
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });e.target.reset;
  };
 
   return (

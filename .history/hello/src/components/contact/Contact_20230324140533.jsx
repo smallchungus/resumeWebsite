@@ -15,12 +15,11 @@ const Contact = () =>
 
   emailjs.sendForm('service_ygormyc', 'template_jckmqdi', form.current, 'NgJDTMBuRfI8X34An')
   .then((result) => {
-    e.target.reset();
     console.log(result.text);
 }, (error) => {
     console.log(error.text);
 });
- 
+  e.target.reset;
  };
 
   return (

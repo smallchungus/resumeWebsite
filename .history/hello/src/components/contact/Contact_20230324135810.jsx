@@ -10,17 +10,16 @@ const Contact = () =>
 {
   const form = useRef();
 
-  const sendEmail = (e) => {
-  e.preventDefault();
+  const sendEmail = (e) => 
+  {
+    e.preventDefault();
 
   emailjs.sendForm('service_ygormyc', 'template_jckmqdi', form.current, 'NgJDTMBuRfI8X34An')
   .then((result) => {
-    e.target.reset();
-    console.log(result.text);
-}, (error) => {
-    console.log(error.text);
-});
- 
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
  };
 
   return (
@@ -44,7 +43,7 @@ const Contact = () =>
           </article>
         </div>
         {/*END OF CONTACT OPTIONS */}
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref="form" onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required/>
           <input type='email' name='email' placeholder='Your email' required/>
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
