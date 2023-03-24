@@ -10,7 +10,7 @@ import IMG6 from '../../assets/portfolio6.jpg'
 const data =[
   {
     id: 1,
-    image: IMG1,
+    image: IMG2,
     title: 'Crypto Currency Dashboard and Financial Visualization',
     github: 'https://github.com',
     demo: 'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
@@ -65,7 +65,7 @@ const Portfolio = () => {
         <div className='portfolio_item-image'>
           <img src={image} alt={title}/>
         </div>
-        <h3>{title}</h3>                              
+        <h3>{title}/h3>                                                                                                                                                                                                                                                                                                                                                                              ,k.' jk<h3>This is a portfolio item title</h3>
         <div className="portoflio_item-cta">
           <a href={github} className='btn' target='blank'>Github</a>
           <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
