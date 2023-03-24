@@ -10,7 +10,7 @@ import IMG6 from '../../assets/portfolio6.jpg'
 
 const Portfolio = () => {
   return (
-    < section id='portfolio'>
+    < section id='portfolio'>Portfolio
     <h5>My Recent Work</h5>
     <h2>Portfolio</h2>
 
@@ -32,7 +32,7 @@ const Portfolio = () => {
       <h3>This is a portfolio item title</h3>
       <div className="portoflio_item-cta">
         <a href="https://github.com" className='btn' target='blank'>Github</a>
-        <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
     </article> 
       <article className='portfolio_item'>
@@ -41,8 +41,8 @@ const Portfolio = () => {
       </div>
       <h3>This is a portfolio item title</h3>
       <div className="portoflio_item-cta">
-        <a href="https://github.com" className='btn' target='blank'>Github</a>
-        <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://github.com" className='btn' target='blank'>Github</a>
+      <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article> 
       <article className='portfolio_item'>
@@ -51,8 +51,8 @@ const Portfolio = () => {
       </div>
       <h3>This is a portfolio item title</h3>
       <div className="portoflio_item-cta">
-        <a href="https://github.com" className='btn' target='blank'>Github</a>
-        <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://github.com" className='btn' target='blank'>Github</a>
+      <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article> 
       <article className='portfolio_item'>
@@ -61,8 +61,8 @@ const Portfolio = () => {
       </div>
       <h3>This is a portfolio item title</h3>
       <div className="portoflio_item-cta">
-        <a href="https://github.com" className='btn' target='blank'>Github</a>
-        <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://github.com" className='btn' target='blank'>Github</a>
+      <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article> 
       <article className='portfolio_item'>
@@ -71,13 +71,13 @@ const Portfolio = () => {
       </div>
       <h3>This is a portfolio item title</h3>
       <div className="portoflio_item-cta">
-        <a href="https://github.com" className='btn' target='blank'>Github</a>
-        <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://github.com" className='btn' target='blank'>Github</a>
+      <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article> 
 
     </div>
-  </section>
+    </section>
   )
 }
 

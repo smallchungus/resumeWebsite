@@ -10,7 +10,7 @@ import IMG6 from '../../assets/portfolio6.jpg'
 
 const Portfolio = () => {
   return (
-    < section id='portfolio'>
+    < section id='portfolio'>Portfolio
     <h5>My Recent Work</h5>
     <h2>Portfolio</h2>
 

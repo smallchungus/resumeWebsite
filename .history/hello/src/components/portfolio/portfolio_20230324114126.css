@@ -4,7 +4,7 @@
     gap: 2.5rem;
 }
 
-.portfolio_item{
+.portfolio_items{
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -38,11 +38,12 @@
         gap: 1.2rem;
     }
 
-}
-@media screen and (max-width: 600px) {
-    .portfolio_container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
+    .about_me {
+        width: 50%;
+        margin: 2rem auto 4rem; 
     }
 
+    .about_content p {
+        margin: 1rem 0 1.5rem; 
+    }
 }
