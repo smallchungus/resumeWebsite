@@ -13,13 +13,13 @@ const Contact = () => {
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">
-            <MdOutlineEmail className='contact_option-icon'/>
+            <MdOutlineEmail/>
             <h4>Email</h4>
             <h5>wchen1396@gmail.com</h5>
             <a href="mailto:wchen1396@gmail.com">Send a message</a>
           </article>
           <article className="contact_option">
-            <RiMessengerLine className='contact_option-icon'/>
+            <RiMessengerLine/>
             <h4>Messenger</h4>
             <h5>wchen1396@gmail.com</h5>
             <a href="https://www.facebook.com/smalltaiwaneseboyo/">Send a message</a>
@@ -29,8 +29,7 @@ const Contact = () => {
         <form action="">
           <input type="text" name='name' placeholder='Your Full Name' required/>
           <input type='email' name='email' placeholder='Your email' required/>
-          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          
         </form>
       </div>
     </section>

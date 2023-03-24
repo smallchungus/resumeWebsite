@@ -8,7 +8,7 @@
 .contact_options {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem; 
+    gap: 1.2 rem; 
 }
 
 .contact_option {
@@ -40,7 +40,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem; 
+    gap: 1.2 rem; 
 }
 
 input, textarea {
@@ -57,11 +57,5 @@ input, textarea {
     .container.contact_container {
         grid-template-columns: 1fr;
         gap: 2rem; 
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .container.contact_container {
-        width: var(--container-width-sm); 
     }
 }
