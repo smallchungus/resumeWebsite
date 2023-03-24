@@ -31,21 +31,21 @@ const data =[
   },
   {
     id: 4,
-    image: IMG4,
+    image: IMG1,
     title: 'Crypto Currency Dashboard and Financial Visualization',
     github: 'https://github.com',
     demo: 'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
   },
   {
-    id: 5,
-    image: IMG5,
+    id: 1,
+    image: IMG1,
     title: 'Crypto Currency Dashboard and Financial Visualization',
     github: 'https://github.com',
     demo: 'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
   },
   {
-    id: 6,
-    image: IMG6,
+    id: 1,
+    image: IMG1,
     title: 'Crypto Currency Dashboard and Financial Visualization',
     github: 'https://github.com',
     demo: 'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
