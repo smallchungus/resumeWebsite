@@ -39,7 +39,7 @@ const Contact = () =>
           <article className="contact_option">
             <RiMessengerLine className='contact_option-icon'/>
             <h4>Linkedin</h4>
-            <h5>www.linkedin.com/in/willchenn</h5>
+            <h5>https://www.linkedin.com/in/willchenn</h5>
             <a href="https://www.linkedin.com/in/willchenn/">Send a message</a>
           </article>
         </div>

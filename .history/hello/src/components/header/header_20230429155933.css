@@ -68,9 +68,10 @@ header {
     height: 300px;
     border-radius: 5rem;
     overflow: hidden;
-    background: linear-gradient(transparent), url('../../assets/propropic.jpg');
+    background: linear-gradient(transparent), url('your-image.jpg');
     background-size: cover;
     background-blend-mode: multiply;
+    background: linear-gradient(transparent);
     transition: var(--transition); 
 
 }
