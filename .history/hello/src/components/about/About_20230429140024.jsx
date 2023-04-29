@@ -19,26 +19,31 @@ const About = () => {
         </div>
 
         <div className="about_content">
-          
-          <div className="about_cards">
-            <article className="about_card">
+          {
+          //<div className="about_cards">
+            //<article className="about_card">
               <FiAward className='about_icon'/>
               <h5>Experience</h5>
               <small>1 Year Working</small>
             </article>
-            {/* <article className="about_card">
+            <article className="about_card">
               <FiUsers className='about_icon'/>
               <h5>Clients</h5>
               <small>200+ clients worldwide</small>
-            </article> */}
+            </article>
             <article className="about_card">
               <VscFolderLibrary className='about_icon'/>
               <h5>Projects</h5>
-              <small>25+ completed</small>
+              <small>80+ completed</small>
             </article>
           </div>
-          
-          <p>Hello, my name is William Chen and I am a current master's student in computer science at the New Jersey Institute of Technology. My passion lies in the fields of machine learning and full stack development. I recently completed my Bachelor of Arts in Psychology with a minor in Computer Science from Rutgers University.
+          }
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl sit amet placerat gravida. Phasellus nibh neque, placerat in faucibus
+          id, eleifend id dui. Nunc ultrices condimentum elit eu faucibus. Curabitur sed libero magna. Pellentesque magna dui, egestas sed turpis
+          sit amet, pretium dictum orci. Suspendisse vestibulum lacinia elit quis tempus. Integer at enim velit. Aenean scelerisque mollis nulla eu finibus. Aenean eu purus lacinia, ultricies dolor ac, finibus elit. 
+          Cras quis molestie ante. In tristique arcu libero, et egestas lorem eleifend ut. Maecenas eget sem scelerisque, aliquam nisl quis, consectetur urna. Sed at eros ac arcu iaculis blandit eget nec dui. Nullam porta, 
+          ipsum vitae pharetra vestibulum, nunc mi lacinia eros, pellentesque varius tortor nulla ut dui. Sed blandit leo pretium egestas vulputate. Pellentesque porta bibendum ante et consectetur.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           

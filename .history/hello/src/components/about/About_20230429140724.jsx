@@ -38,7 +38,8 @@ const About = () => {
             </article>
           </div>
           
-          <p>Hello, my name is William Chen and I am a current master's student in computer science at the New Jersey Institute of Technology. My passion lies in the fields of machine learning and full stack development. I recently completed my Bachelor of Arts in Psychology with a minor in Computer Science from Rutgers University.
+          <p>
+              Hello, my name is William Chen and I am a current master's student in computer science at the New Jersey Institute of Technology. My passion lies in the fields of machine learning and full stack development. I recently completed my Bachelor of Arts in Psychology with a minor in Computer Science from Rutgers University.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           
