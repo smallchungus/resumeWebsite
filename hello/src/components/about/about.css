@@ -19,7 +19,9 @@
 }
 
 .about_me-image{
-    border-radius: 2rem;
+    width: 400px;
+    height: 400px;
+    border-radius: 5rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition); 
@@ -70,6 +72,11 @@
     margin: 2rem 0 2.6 rem; 
     color: var(--color-light); 
 }
+
+.indent {
+    padding: 1rem;
+    text-indent: 2em; /* change the value to adjust the indentation */
+  }
 
 @media screen and (max-width: 1024px) {
     .about_container {
